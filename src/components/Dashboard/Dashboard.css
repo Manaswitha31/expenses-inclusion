@@ -1,0 +1,83 @@
+.expense-buttons{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.expense-buttons .flex-items .buttons{
+    background-color: #50995c;
+    border: none;
+    border-radius: 3%;
+    color: #fff;
+    position: relative;
+    top: 6vh;
+    padding: 10%;
+    cursor: pointer;
+}
+.expense-buttons .flex-items .buttons:hover{
+    background-color: #6ec47d;
+}
+
+.btn2{
+    width:23vh;
+}
+#hr1{
+    position: relative;
+    top: 10vh;
+    border: 1px solid #50995c;
+}
+.expense-header{
+    display: flex;
+    position: relative;
+    top: 8.5vh;
+    justify-content: space-evenly;
+    background-color: #e6e7e6;
+    width: 100%;
+}
+#hr2{
+    position: relative;
+    top: 7vh;
+    border: 1px solid #50995c;
+}
+
+.date-picker{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    padding: 5%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    top:6vh;
+  }
+
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #c7decb;
+  }
+
+  .filter{
+    padding: 2%;
+  }
+  .delete-btn{
+    background-color: blue;
+    border: none;
+    color: #fff;
+    padding: 4%; 
+    width: 50%;  
+    cursor: pointer; 
+  }
+  .delete-btn:hover{
+    background-color: rgb(2, 2, 164);
+  }

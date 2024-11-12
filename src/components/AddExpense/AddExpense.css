@@ -1,0 +1,11 @@
+.name-header{
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+}
+.name-body label{
+    margin-top: 1vh;
+}
+.submit{
+    height: 8vh;
+}

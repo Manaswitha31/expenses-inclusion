@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #50995c;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+}
+.name-box{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: 3%;
+    background-color: #e6e7e6;
+    border-radius: 5%;
+}
+.name-header{
+    background-color: #50995c;
+    height: 12%;    
+}
+.name-body{
+    padding: 20px;
+}
+.input-field{
+    margin-top: 2vh;
+    width: 98%;
+    height: 5vh;
+    padding: 1vh;
+    border: 1px solid #50995c;
+}
+.submit{
+    background-color: #50995c;
+    border: none;
+    color: #fff;
+    margin-top: 5vh;
+    border-radius: 1vh;
+    cursor: pointer;
+}

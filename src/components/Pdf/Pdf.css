@@ -1,0 +1,20 @@
+.pdf-button{
+    margin-left: 50%;
+    margin-right: auto;
+    position: relative;
+    background-color: #50995c;
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    top: 10vh;
+    cursor: pointer;
+}
+.pdf-button:hover{
+    background-color: #34663d;
+}
+.pdf-header{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background-color: rgb(45, 218, 237);
+}
